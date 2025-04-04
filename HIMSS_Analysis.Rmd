@@ -8,6 +8,8 @@ output:
     toc_depth: 3
 ---
 
+# TODO: add pic for titlepage 
+
 
 ```{r, include=FALSE}
 # loading libraries
@@ -19,7 +21,6 @@ library(mgcv)
 library(MASS) # for negative binomial
 library(mlegp)
 ```
-
 
 # How does IT transform the healthcare sector?
 
@@ -33,4 +34,4 @@ One of the key enablers behind the rise of these advanced data technologies is t
 
 The focus areas of HIMSS 2017 and the emergence of next-generation information technologies point toward a radical shift for the healthcare sector. As artificial intelligence, improvements in patient privacy, and scalable data infrastructure get better, they allow the possibility of data-driven personalized care. Our report explores how these technologies are driving change across the healthcare sector - from hospital workflows and patient experience, to large-scale population health management. By analyzing data sets from HIMSS 2017, we will begin to understand how convergence of healthcare and technology is redefining the foundations of patient care.
 
-[Paragraph or two discussing what questions we want to answer specifically and why we chose them]
+# TODO: Paragraph or two discussing what questions we want to answer specifically and why we chose them]
