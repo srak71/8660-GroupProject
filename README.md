@@ -2,17 +2,15 @@
 
 This group project requires you to pack all skills you learned from this course (and possibly other DSA courses) to solve a real business problem using effecve data management and analycs. You will pracce how to solve real- world problems and generate insights using data management tools. You have two opons for the project.  With either opon, you will work either individually or in a group of up to 3 members. The final deliverable is a short research report and a PowerPoint presentaon. 
 
-**Opon 1: Data Processing and Analycs**
+**Option 1: Data Processing and Analycs**
 
 This year, we provide two data analycs topics that you can choose from – healthcare IT or Airbnb lisngs. Your group only needs to pick one from the following two opons.
 
-***Option 1A:*** The central theme of this year's healthcare IT project is: *How does IT transform the healthcare sector?* The instructor has secured a complete dataset of HIMSS 2017, which is a detailed survey of several thousands of healthcare enes' various IT systems in the North America area in 2017. The data diconary is available [her](https://clemson.instructure.com/courses/253766/files/25176077?wrap=1)[e Download here ](https://clemson.instructure.com/courses/253766/files/25176077/download?download_frd=1)
-
-. Each group will idenfy a relevant business problem in this context. Then, you will need to idenfy other datasets that can complement the provided HIMSS dataset, merge and process the data, analyze it, and provide the findings of your study. You can use any data management tools that you are familiar with, although the tools we learned in this class are recommended. 
+***Option 1A:*** The central theme of this year's healthcare IT project is: *How does IT transform the healthcare sector?* The instructor has secured a complete dataset of HIMSS 2017, which is a detailed survey of several thousands of healthcare enes' various IT systems in the North America area in 2017. The data diconary is available [her](https://clemson.instructure.com/courses/253766/files/25176077?wrap=1)[e Download here ](https://clemson.instructure.com/courses/253766/files/25176077/download?download_frd=1). Each group will idenfy a relevant business problem in this context. Then, you will need to idenfy other datasets that can complement the provided HIMSS dataset, merge and process the data, analyze it, and provide the findings of your study. You can use any data management tools that you are familiar with, although the tools we learned in this class are recommended. 
 
 **Suggested research report outline:** In your research report, you need to include the following secons: 
 
-- **Introducon:** Elaborate on the problem you studied and why it is important (with evidence from pracce, media, or phenomena); Clearly state the queson of your study;
+- **Introduction:** Elaborate on the problem you studied and why it is important (with evidence from pracce, media, or phenomena); Clearly state the queson of your study;
 - **Data:** Describe your data source and data processing approaches; 
 - **Method:** Describe your method of analyzing the data, which could be but is not limited to descripve stascs, correlaons, data visualizaons, regression analysis, and predicve models; 
 - **Results:** Describe and summarize your results or findings from the data analysis; 
