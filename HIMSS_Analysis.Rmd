@@ -40,7 +40,8 @@ head(HAEntity)
 Pharma <- read.csv("data/Pharmacy.csv")
 head(Pharma)
 
-HAEntNPI <- read.csv("data/HAEntityNPI.csv")
+HA_NPI <- read.csv("data/HAEntityNPI.csv")
+head(HA_NPI)
 ```
 
 ## Datasets
@@ -59,7 +60,7 @@ HAEntNPI <- read.csv("data/HAEntityNPI.csv")
     - Link: This table links to the other tables by the HAEntity$HAEntityID.
     
 
-3. HAEntNPI
+3. HA_NPI
 
     - Description: This table provides information reguarding medication prescriber's NPI (National Provider Identifier). 
     
