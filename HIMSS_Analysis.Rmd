@@ -1,0 +1,9 @@
+---
+title: "DSA 8660 Group Project"
+author: "Nate Hanrahan, Saransh Rakshak"
+date: "Due April 27, 2025"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
+---
