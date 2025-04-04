@@ -16,7 +16,9 @@ In your research report, you need to include the following sections:
 - **Results:** Describe and summarize your results or findings from the data analysis; 
 - **Conclusion:** Conclude the paper and make managerial or policy recommendations; 
 
-## **Grading Rubrics:** Your project and report will be evaluated based on the overall "contribution". A contribution can be understood as the novel knowledge you uncovered from the data analysis, which can be achieved in various ways. For example, you may study a question that nobody has looked at before and find reasonable results that are explainable. You also may focus an "old" queson but add nuances such as conditions leading to different impacts or different types of interventions causing different outcomes, etc. Another  potenal contribution is that your findings have strong recommendations for practitioners.
+## **Grading Rubrics:** 
+
+Your project and report will be evaluated based on the overall "contribution". A contribution can be understood as the novel knowledge you uncovered from the data analysis, which can be achieved in various ways. For example, you may study a question that nobody has looked at before and find reasonable results that are explainable. You also may focus an "old" queson but add nuances such as conditions leading to different impacts or different types of interventions causing different outcomes, etc. Another  potenal contribution is that your findings have strong recommendations for practitioners.
 
 **In terms of grading, reasonable work should satisfy the following:**
 
