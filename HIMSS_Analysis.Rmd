@@ -7,3 +7,30 @@ output:
     toc: true
     toc_depth: 3
 ---
+
+
+```{r, include=FALSE}
+# loading libraries
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(car)
+library(mgcv)
+library(MASS) # for negative binomial
+library(mlegp)
+```
+
+
+# How does IT transform the healthcare sector?
+
+## Introduction
+
+The 2017 Healthcare Information and Management Systems Society (HIMSS) Conference & Exhibition was one of the world’s largest and most influential healthcare IT events. Held from February 19–23, 2017 at the Orange County Convention Center in Orlando, Florida, the event brought together over 40,000 healthcare and IT professionals, including clinicians, policymakers, researchers, tech executives, industry leaders & more. With more than 1200 exhibits and hundreds of educational sessions, HIMSS 2017 served as a dynamic forum for exploring the constantly growing convergence of healthcare and technology. Key themes included cybersecurity, patient engagement, tele-medicine, and deep/machine learning integration for assistive technology, highlighting the growing need for connected and trained systems that support a rapidly growing healthcare landscape.
+
+Since the 2017 conference, groundbreaking technologies have emerged with the potential to alter how healthcare data is managed, analyzed, and protected. Among these, Deep Learning has shown exceptional promise in areas such as medical imaging, diagnostics, and clinical decision assistance - offering accuracy beyond normal practice. A growth in ethical tech like differential privacy - which enable the sharing and analysis of sensitive health data while preserving individual privacy — shows an increasing concern about earning user trust in the era of big data and personalized medicine. These innovations represent both technical progress and also a shift in how healthcare systems operates at massive scale while maintaining trust, security, and ethical responsibility.
+
+One of the key enablers behind the rise of these advanced data technologies is the significant improvement in computing infrastructure - especially through the widespread adoption of Graphics Processing Units (GPUs). Technology like NVIDIA's CUDA have transformed GPUs from gaming hardware into essential tools for scientific computing, enabling massive parallel processing that powers modern AI and machine learning applications. As the cost of computing has decreased, high-performance tools—such as dedicated GPUs—have become more accessible and standardized, even in personal and enterprise-level systems. This democratization of computing power has allowed a broader range of researchers, developers, and healthcare organizations to experiment with and deploy data-intensive solutions that were once limited to well-funded labs or tech giants.
+
+The focus areas of HIMSS 2017 and the emergence of next-generation information technologies point toward a radical shift for the healthcare sector. As artificial intelligence, improvements in patient privacy, and scalable data infrastructure get better, they allow the possibility of data-driven personalized care. Our report explores how these technologies are driving change across the healthcare sector - from hospital workflows and patient experience, to large-scale population health management. By analyzing data sets from HIMSS 2017, we will begin to understand how convergence of healthcare and technology is redefining the foundations of patient care.
+
+[Paragraph or two discussing what questions we want to answer specifically and why we chose them]
