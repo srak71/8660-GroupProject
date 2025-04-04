@@ -1,4 +1,4 @@
-**Group Project Instructions** 
+# **Group Project Instructions** 
 
 This group project requires you to pack all skills you learned from this course (and possibly other DSA courses) to solve a real business problem using effecve data management and analycs. You will pracce how to solve real- world problems and generate insights using data management tools. You have two opons for the project.  With either opon, you will work either individually or in a group of up to 3 members. The final deliverable is a short research report and a PowerPoint presentaon. 
 
