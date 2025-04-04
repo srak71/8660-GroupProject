@@ -8,19 +8,7 @@ output:
     toc_depth: 3
 ---
 
-# TODO: add pic for titlepage 
-
-
-```{r, include=FALSE}
-# loading libraries
-library(dplyr)
-library(tidyr)
-library(ggplot2)
-library(car)
-library(mgcv)
-library(MASS) # for negative binomial
-library(mlegp)
-```
+<!-- # TODO: add pic for titlepage  -->
 
 # How does IT transform the healthcare sector?
 
@@ -34,4 +22,67 @@ One of the key enablers behind the rise of these advanced data technologies is t
 
 The focus areas of HIMSS 2017 and the emergence of next-generation information technologies point toward a radical shift for the healthcare sector. As artificial intelligence, improvements in patient privacy, and scalable data infrastructure get better, they allow the possibility of data-driven personalized care. Our report explores how these technologies are driving change across the healthcare sector - from hospital workflows and patient experience, to large-scale population health management. By analyzing data sets from HIMSS 2017, we will begin to understand how convergence of healthcare and technology is redefining the foundations of patient care.
 
-# TODO: Paragraph or two discussing what questions we want to answer specifically and why we chose them]
+<!-- TODO: Paragraph or two discussing what questions we want to answer specifically and why we chose them] -->
+
+```{r, include=FALSE}
+# loading libraries
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+```
+
+```{r load data}
+# loading datasets
+HAEntity <- read.csv("data/HAEntity.csv")
+head(HAEntity)
+# summary(HAEntity)
+
+Pharma <- read.csv("data/Pharmacy.csv")
+head(Pharma)
+
+HAEntNPI <- read.csv("data/HAEntityNPI.csv")
+```
+
+## Datasets
+
+1. HAEntity: 
+
+    - Description: This table contains the demographic information for all the facilities and systems tracked in the database.  (This is a self referencing table).
+    
+    - Link: This table links to the other tables by the HAEntityID.  This table also links to itself by HAEntityID to ParentID.  The table linked by HAEntityID will pull the IDS information and the table linked by ParentID will pull the facility information.
+
+
+2. Pharmacy:
+
+    - Description: This tables provides an overview of the pharmacy department, including FDA bar code regulations, use and planned ADMS, Robots, and EMARs.
+    
+    - Link: This table links to the other tables by the HAEntity$HAEntityID.
+    
+
+3. HAEntNPI
+
+    - Description: This table provides information reguarding medication prescriber's NPI (National Provider Identifier). 
+    
+    - Link: This table is connected to HAEntity by SurveyId and HAEntityID.
+
+
+
+<!-- TODO: Get second dataset from Medicare or somewhere linking NPI to doctor names and specialties -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
