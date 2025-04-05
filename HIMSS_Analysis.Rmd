@@ -55,23 +55,22 @@ head(HA_NPI)
 
 ## Dataframe Information
 
-- Our first collection of datasets comes directly from the HIMSS 2017 server. 
+1. Our first collection of datasets comes directly from the HIMSS 2017 server. 
 
-1. HAEntity: 
+- HAEntity: 
 
     - Description: This table contains the demographic information for all the facilities and systems tracked in the database.  (This is a self referencing table).
     
     - Link: This table links to the other tables by the HAEntityID.  This table also links to itself by HAEntityID to ParentID.  The table linked by HAEntityID will pull the IDS information and the table linked by ParentID will pull the facility information.
 
 
-2. Pharmacy:
+- Pharmacy:
 
     - Description: This tables provides an overview of the pharmacy department, including FDA bar code regulations, use and planned ADMS, Robots, and EMARs.
     
     - Link: This table links to the other tables by the HAEntity$HAEntityID.
     
-
-3. HA_NPI
+- HA_NPI
 
     - Description: This table provides information reguarding medication prescriber's NPI (National Provider Identifier). 
     
@@ -81,7 +80,7 @@ head(HA_NPI)
 
 <!-- TODO: Get second dataset from Medicare or somewhere linking NPI to doctor names and specialties -->
 
-- The following sets come from ...
+2. The following sets come from ...
 
 ```{r load data}
 
