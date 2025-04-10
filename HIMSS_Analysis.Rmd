@@ -9,7 +9,7 @@ output:
 ---
 
 ```{r pkgs, include=FALSE}
-# loading libraries
+# loading packages
 library(dplyr)
 library(tidyr)
 library(ggplot2)
@@ -34,13 +34,13 @@ library(ggplot2)
 
 
 ---
-<!-- DATA LOAD & PREP -->
+<!-- DATA LOAD & PREP, EDA -->
 
 # Data Preparation
 
 ### Loading Data
 
-```{r loaddata}
+```{r loadHIMSS}
 # load data
 HAEntity <- read.csv("data/HAEntity.csv")
 HA_NPI <- read.csv("data/HAEntityNPI.csv")
@@ -82,7 +82,7 @@ D. *PharmacyProduct*:
 
 ### Cleaning Data Column Names
 
-```{r edaHIMSS}
+```{r cleanHIMSS}
 HAEntity <- HAEntity %>%
   rename(Care_Type = Type)
 
@@ -131,8 +131,9 @@ colnames(data)
 
 
 
+---
 
-
+<!-- TODO: Regression Modeling?  -->
 
 
 
