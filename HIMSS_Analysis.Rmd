@@ -38,22 +38,23 @@ library(ggplot2)
 
 # Data Preparation
 
-### Loading Data
+## Loading Data
 
 ```{r loadHIMSS}
-# load data
+# load HIMSS data
 HAEntity <- read.csv("data/HAEntity.csv")
 HA_NPI <- read.csv("data/HAEntityNPI.csv")
 UseOfIT <- read.csv("data/UseOfITComponent.csv")
 Pharma <- read.csv("data/Pharmacy.csv")
 PharmaProds <- read.csv("data/PharmacyProduct.csv")
 
-# head(PharmaProds)
+# loading CMS Narcotics data
+Narcs <- read.csv("data/op_2021_data.csv")
 ```
 
 ## Data Information
 
-1. Our first collection of datasets comes directly from the HIMSS 2017 server. 
+### 1. Our first collection of datasets comes directly from the HIMSS 2017 server. 
 
 A. *HAEntity*: 
 
@@ -80,7 +81,16 @@ D. *PharmacyProduct*:
     - Link: This table links to the other tables by the 'HAEntityID'.
 
 
-### Cleaning Data Column Names
+### 2. Our second collection of data comes from the Center for Medicare and Medicaid Services (CMS), and can be accessed here (https://data.cms.gov/Medicare-Part-D/Medicare-Part-D-Opioid-Prescriber-Summary-File-201/j2ra-95gh). This data was last updated Feb 2021 and additional information can be provided by emailing MedicareProviderData@cms.hhs.gov . This dataset contains the following relavent columns:
+
+E. *Narcs*: 
+
+    - Description: This table contains the prescriber information for all opioid containing prescriptions tracked in the DEA database.
+    
+    - Link: This table links to HIMSS's table 'HA_NPI' by *NPI* (National Provider Identifier) information. 
+
+
+## Cleaning Data Column Names
 
 ```{r cleanHIMSS}
 HAEntity <- HAEntity %>%
@@ -100,7 +110,7 @@ PharmaProds <- PharmaProds %>%
   rename(Pharma_Prod_Id = Id)
 ```
 
-### Merging Dataframes
+## Merging Dataframes
 
 ```{r joinHIMSS}
 # left join NPI to HAEntity
@@ -124,20 +134,38 @@ if (length(mismatched) == 0) {
 colnames(data)
 ```
 
-<!-- TODO: Get second dataset from Medicare or somewhere linking NPI to doctor names and specialties -->
+```{r}
+head(data)
+```
 
-2. The following sets come from ...
+
+---
+
+# Method
+
+
+
+---
+
+# Results
+
 
 
 
 
 ---
 
-<!-- TODO: Regression Modeling?  -->
+# Conclusion
 
 
 
 
+
+
+
+
+
+---
 
 
 
